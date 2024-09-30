@@ -1,11 +1,7 @@
 
 import React, { useState } from 'react'
-import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Bell, ChevronDown, Search, Menu , GraduationCap, BookOpen, Users, Briefcase} from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -30,13 +26,13 @@ const Footer = () => {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
                 <form className="flex space-x-2 ">
-                  <Input type="email" placeholder="Enter your email" className="bg-gray-100 text-primary" />
+                  <Input type="email" placeholder="Enter your email" className="bg-gray-100 text-black" />
                   <Button variant="secondary" className="bg-gray-300">Subscribe</Button>
                 </form>
               </div>
             </div>
             <div className="mt-8 text-center">
-              <p>&copy; 2023 Vivekanand Education Society's Institute of Technology. All rights reserved.</p>
+              <p>&copy; 2024 Vivekanand Education Society's Institute of Technology.Pranav Pol. All rights reserved.</p>
             </div>
           </div>
         </footer>

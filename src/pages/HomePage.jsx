@@ -17,17 +17,6 @@ import CampusLife from '@/components/CampusLife'
 import Testimonials from '@/components/Testimonials'
 import QuickLinks from '@/components/QuickLinks'
 
-
-
-
-
- 
-  
-  
-
-  
- 
-  
   export default function EnhancedVESITHomepage() {
     const quickLinks = [
       { text: 'Student Portal', url: '#', icon: <motion.div whileHover={{ scale: 1.1 }}><Search className="h-4 w-4" /></motion.div> },
@@ -104,7 +93,7 @@ import QuickLinks from '@/components/QuickLinks'
                       <CardTitle className="text-[#FFD700]">Welcome to VESIT</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-[#001f3f]">
+                      <p className="text-[#001f3f] pt-2">
                         Vivekanand Education Society's Institute of Technology (VESIT) is committed to providing high-quality education in engineering and technology. Our state-of-the-art facilities, experienced faculty, and industry connections ensure that our students are well-prepared for successful careers in the ever-evolving tech landscape.
                       </p>
                     </CardContent>
@@ -122,6 +111,7 @@ import QuickLinks from '@/components/QuickLinks'
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.2, duration: 0.5 }}
+                  onViewportEnter={{}}
                 >
                   <Card className="bg-white shadow-md">
                     <CardHeader className="bg-[#001f3f] text-white">
@@ -129,7 +119,7 @@ import QuickLinks from '@/components/QuickLinks'
                     </CardHeader>
                     <CardContent>
                       <p className="mb-4 text-[#001f3f]">Join our vibrant community of learners and innovators. Applications for the upcoming academic year are now open.</p>
-                      <Button className="w-full bg-[#FFD700] text-[#001f3f]">Apply Now</Button>
+                      <Button className="w-full bg-[#FFD700] text-[#001f3f] hover:bg-yellow-50 border-[#001f3f]">Apply Now</Button>
                     </CardContent>
                   </Card>
                 </motion.div>

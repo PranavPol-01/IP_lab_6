@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-4">
-            <img src="/placeholder.svg" alt="VESIT Logo" width={50} height={50} className="rounded-full" />
+            <img src="https://vesit.ves.ac.in/logo.png" alt="VESIT Logo" width={20} height={30} className="" />
             <div>
               <div className="text-2xl font-bold text-white">VESIT</div>
               <div className="text-sm hidden md:block text-gray-300">Vivekanand Education Society's Institute of Technology</div>

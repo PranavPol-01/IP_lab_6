@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Bell, ChevronDown, Search, Menu , GraduationCap, BookOpen, Users, Briefcase} from 'lucide-react'
+import { Bell} from 'lucide-react'
 const AnnouncementBanner = ({ announcement }) => (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
